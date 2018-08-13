@@ -1,4 +1,5 @@
 # Application with Jersey(JAX-RS), Hibernate, JUnit, Mockito, Jersey json and JerseyTest Framework
+
 ### 1. Prerequisites to run the application
   * Jdk 1.8
   * Hibernate
@@ -29,5 +30,14 @@
      ```
      mvn clean install -P live
      ```
+     
+#### Endpoints
+   - **_Create user_**
+     - POST Request
+        - _http://localhost:18080/test/rest/user/create_
+      
+   - **_Create player_**
+     - POST Request
+       - _http://localhost:18080/test/rest/player/create_
    
   
